@@ -1,4 +1,27 @@
-class Transactions {}
+class Transactions {
+  constructor(date, credit, debit, balance) {
+    this.date = date;
+    this.credit = credit;
+    this.debit = debit;
+    this.balance = balance;
+  }
+
+  getDate() {
+    return this.date;
+  }
+
+  getCredit() {
+    return this.credit;
+  }
+
+  getDebit() {
+    return this.debit;
+  }
+
+  getBalance() {
+    return this.balance;
+  }
+}
 
 module.exports = Transactions;
 
